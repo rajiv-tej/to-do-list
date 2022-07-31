@@ -1,0 +1,144 @@
+.button{
+    margin: 0px , 20px;
+}
+.flex_div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.navbarcustom{
+    
+    background-color: #51c3fd;
+    position: sticky;
+    height: 8vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+   
+}
+.navcon{
+    width: 90vw;
+    color: rgb(23, 19, 5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    
+    font-size: 2rem;
+}
+.buttons{
+    display: flex;
+    
+}
+.g_logo{
+ width: 15px;
+ margin-left: 10px;
+}
+.button_c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-style: none;
+    border-radius: 12px;
+}
+.button_c:hover{
+    background-color: whitesmoke;
+}
+.userpopup{
+position: relative;
+
+right: 20px;
+color: black;
+transition: all ease-in-out 200ms;
+}
+.profileimg{
+    width: 6vh;
+    height: 6vh;
+    overflow: hidden;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+.profileimg>img{
+    height: 6vh;
+    border-radius: 50%;
+    cursor: pointer;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px;
+    transition: 300ms ease-in-out all;
+}
+.profileimg>img:hover{
+    border-width: 2px;
+}
+.dropdwn{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    padding: 40px 20px;
+    border-radius: 16px;
+    right: -30px;
+    top:70px;
+    box-shadow: 0px 0px 10px 1px rgba(189, 189, 189, 0.3) ;
+    
+}
+.blocker{
+    position: fixed;
+    /* top: -05%;
+    left: -470%; */
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.hide{
+    visibility: hidden;
+
+}
+.logoutsvg{
+    width: 20px;
+}
+.user_name{
+    font-size: medium;
+}
+.greet2{
+    color: rgb(100, 100, 100);
+    font-size: smaller;
+}
+.unameinpop{
+    font-size: 25px;
+    width: 230px;
+}
+.sign_out{
+    margin-top: 20px;
+    display: flex;
+    align-items: center ;
+    justify-content: right ;
+    /* transition: ease-in-out all 200ms; */
+    cursor: pointer;
+}
+.sign_out:hover{
+    color: red;
+    fill: red;
+}
+.so{
+    margin-left: 10px ;
+}
+.bulge{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(238, 238, 238);
+    right: 10px;
+    top:65px;
+    transform: rotate(45deg);    
+}

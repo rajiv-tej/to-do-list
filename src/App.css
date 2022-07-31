@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sans-serif", sans-serif;
+
+}
+.googleSignin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  background-color:#51c3fd;
+  color: rgb(14, 14, 14);
+  padding: 30px 50px ;
+  border-style: none;
+  border-radius: 12px;
+  transition: all ease-in-out 300ms;
+}
+.googleSignin:hover{
+  background-color: #87d4fa; 
+  padding: 35px 60px ;
+  box-shadow: rgb(243, 237, 237);
+}
+.greeting{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+
+}

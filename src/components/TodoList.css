@@ -1,0 +1,75 @@
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0px;
+
+}
+.todo_card{
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30px;
+    padding: 30px 50px;
+    background-color: rgb(192, 242, 254);
+    border-radius: 16px;
+    margin-top: 10px;
+    transition: all 200ms ease-in-out;
+}
+.todo_card:hover{
+    background-color: rgb(224, 250, 255);
+
+}
+.todo{
+    flex: 9;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.okay{
+    fill: rgb(45, 192, 45);
+    transition: all 200ms ease-in-out;
+
+}
+.okay:hover{
+    fill: green;
+}
+.bin{
+    transition: all 200ms ease-in-out;
+
+    fill: rgb(190, 76, 76);
+}
+.bin:hover{
+    fill: red;
+}
+.finished{
+    text-decoration: line-through;
+    background-color: rgb(140, 255, 140);
+    transition: all 200ms ease-in-out;
+
+}
+.finished:hover{
+    background-color: rgb(177, 248, 177);
+}
+@media screen and (max-width: 802px) {
+    .todo_card{
+    width: 80vw;
+    justify-content: space-between;
+    padding: 25px 20px;
+
+
+    }
+    .todo{
+        flex: 7;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icons{
+        flex: 2;
+    }
+}
